@@ -1,9 +1,3 @@
-import React from 'react'
-
-const first commit test  = () => {
-  return (
-    <div>first commit test </div>
-  )
+const func = () =>{
+    console.log("This is my first commit. ")
 }
-
-export default first commit test 
