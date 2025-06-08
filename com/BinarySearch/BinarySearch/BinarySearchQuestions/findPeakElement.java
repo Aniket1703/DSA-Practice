@@ -7,6 +7,7 @@ public class findPeakElement {
         System.out.println(findpeakElement(nums));
     }
 
+    //https://leetcode.com/problems/find-peak-element/description/
     static int findpeakElement(int[] nums) {
 
         int start = 0;
