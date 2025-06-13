@@ -7,9 +7,13 @@ public class RotatedArrayBS {
         System.out.println(search(nums,target));
     }
 
+    //https://leetcode.com/problems/search-in-rotated-sorted-array/description/
     static int search(int[] nums, int target) {
         int pivet = getPivet(nums);
 
+        if(pivet == -1){
+            return BinarySearch(nums,target,0,nums.length -1);
+        }
 
         int ans = BinarySearch(nums,target,0,pivet);
         if(ans == -1){
